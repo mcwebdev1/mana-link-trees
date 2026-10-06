@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter);
+}
+
+html,
+body {
+  background: #1e1e1e;
+  color: #141414;
+}
+
+body {
+  font-family: var(--font-inter), "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
