@@ -1,0 +1,16 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icons/ManaCommon/divisions/properties" clip-path="url(#clip0_0_780)">
+<path id="Vector" d="M9 18C13.9706 18 18 13.9706 18 9C18 4.02944 13.9706 0 9 0C4.02944 0 0 4.02944 0 9C0 13.9706 4.02944 18 9 18Z" fill="#161616"/>
+<g id="Group">
+<path id="Vector_2" d="M8.10225 10.1115L9.59625 9.063L9.6075 6.68475L7.7265 4.1445V9.918C7.7265 10.1115 7.94475 10.224 8.10225 10.1115Z" fill="#FAFAFA"/>
+<path id="Vector_3" d="M14.0715 9.126L12.6405 7.299L12.6225 13.0095C12.6225 13.1512 12.7373 13.266 12.879 13.266H13.5247C13.8263 13.266 14.0692 13.0208 14.0692 12.7215V9.126H14.0715Z" fill="#FAFAFA"/>
+<path id="Vector_4" d="M7.25625 3.99375L4.79025 6.687V12.7215C4.79025 13.023 5.0355 13.266 5.33475 13.266H7.2585V4.02075V4.03875L7.25625 3.9915V3.99375Z" fill="#FAFAFA"/>
+<path id="Vector_5" d="M12.1702 7.04025V13.0073C12.1702 13.149 12.0555 13.266 11.9115 13.266H7.9695C7.82775 13.266 7.71075 13.1513 7.71075 13.0073V11.133C7.71075 11.0587 7.74225 10.989 7.79625 10.9418L12.168 7.0425L12.1702 7.04025Z" fill="#FAFAFA"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_780">
+<rect width="18" height="18" fill="white"/>
+</clipPath>
+</defs>
+</svg>
