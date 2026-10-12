@@ -124,7 +124,7 @@ export default function CommonPage() {
       footerClassName="px-[19px]"
       socialClassName="px-1"
       background={
-        <div className="pointer-events-none absolute inset-0" aria-hidden="true">
+        <div className="mana-phone-bg pointer-events-none absolute inset-0" aria-hidden="true">
           <div className="absolute inset-0 bg-[#dfdfdf]" />
           <img
             src={asset("/common/bg.png")}

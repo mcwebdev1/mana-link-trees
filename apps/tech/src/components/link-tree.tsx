@@ -77,7 +77,7 @@ export function LinkTree({
       {desktopImage ? (
         <div
           aria-hidden="true"
-          className="pointer-events-none absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="mana-desktop-bg pointer-events-none absolute inset-0 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url('${asset(desktopImage)}')` }}
         />
       ) : null}
