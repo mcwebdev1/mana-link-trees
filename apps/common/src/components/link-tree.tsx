@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import { asset } from "@/lib/asset";
 
 export type TreeIcon = {
   src: string;
@@ -77,7 +78,7 @@ export function LinkTree({
         <div
           aria-hidden="true"
           className="pointer-events-none absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url('${desktopImage}')` }}
+          style={{ backgroundImage: `url('${asset(desktopImage)}')` }}
         />
       ) : null}
       <div className="mana-hubs-stage relative">
@@ -122,7 +123,7 @@ export function LinkTree({
                       </span>
                       <span className="flex size-[18px] shrink-0 items-center justify-center">
                         <img
-                          src={link.icon.src}
+                          src={asset(link.icon.src)}
                           alt=""
                           width={link.icon.width}
                           height={link.icon.height}
@@ -148,7 +149,7 @@ export function LinkTree({
                       className={`block shrink-0 transition-opacity hover:opacity-70 ${focus}`}
                     >
                       <img
-                        src={social.icon.src}
+                        src={asset(social.icon.src)}
                         alt=""
                         width={social.icon.width}
                         height={social.icon.height}

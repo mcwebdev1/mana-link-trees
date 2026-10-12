@@ -1,3 +1,5 @@
+import { asset } from "@/lib/asset";
+
 const links = [
   {
     label: "Book a Tour",
@@ -48,19 +50,19 @@ export default function Home() {
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 bg-[#dfdfdf] bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url('${desktopBackground}')` }}
+        style={{ backgroundImage: `url('${asset(desktopBackground)}')` }}
       />
       <div className="mana-hubs-stage relative">
         <article className="mana-hubs-frame overflow-hidden">
           <div className="pointer-events-none absolute inset-0" aria-hidden="true">
             <div className="absolute inset-0 bg-[#dfdfdf]" />
             <img
-              src="/card-hubs-bg.png"
+              src={asset("/card-hubs-bg.png")}
               alt=""
               className="absolute inset-0 h-full w-full max-w-none object-cover"
             />
             <img
-              src="/card-hubs-photo.png"
+              src={asset("/card-hubs-photo.png")}
               alt=""
               className="absolute inset-0 h-full w-full max-w-none object-cover"
             />
@@ -72,7 +74,7 @@ export default function Home() {
                 <div className="flex w-[148px] max-w-[46%] shrink-0 flex-col items-start">
                   <div className="flex w-full flex-col items-start gap-[14px]">
                     <img
-                      src="/icon-mana-common.svg"
+                      src={asset("/icon-mana-common.svg")}
                       alt=""
                       width={60.7209}
                       height={60.7209}
@@ -105,7 +107,7 @@ export default function Home() {
                         {link.label}
                       </span>
                       <img
-                        src={link.icon}
+                        src={asset(link.icon)}
                         alt=""
                         width={18}
                         height={18}
@@ -128,7 +130,7 @@ export default function Home() {
                       className="block shrink-0 transition-opacity hover:opacity-70 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#161616]"
                     >
                       <img
-                        src={social.icon}
+                        src={asset(social.icon)}
                         alt=""
                         width={social.width}
                         height={social.height}

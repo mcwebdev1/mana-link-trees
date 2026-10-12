@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { LinkTree, type TreeLinkItem, type TreeSocial } from "@/components/link-tree";
+import { asset } from "@/lib/asset";
 
 export const metadata: Metadata = {
   title: "Mana Fashion Services",
@@ -91,14 +92,14 @@ export default function FashionPage() {
       logo={
         <div className="relative h-[60px] w-[83.077px] shrink-0 overflow-hidden">
           <img
-            src="/fashion/logo-mark.svg"
+            src={asset("/fashion/logo-mark.svg")}
             alt=""
             width={61.5348}
             height={60}
             className="absolute top-0 left-0 block"
           />
           <img
-            src="/fashion/logo-letters.svg"
+            src={asset("/fashion/logo-letters.svg")}
             alt=""
             width={14.0989}
             height={42.744}

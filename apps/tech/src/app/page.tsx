@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { LinkTree, type TreeLinkItem, type TreeSocial } from "@/components/link-tree";
+import { asset } from "@/lib/asset";
 
 export const metadata: Metadata = {
   title: "Mana Tech",
@@ -105,25 +106,25 @@ export default function TechPage() {
         <div className="pointer-events-none absolute inset-0" aria-hidden="true">
           <div className="absolute inset-0 bg-[#dfdfdf]" />
           <img
-            src="/tech/bg-1.png"
+            src={asset("/tech/bg-1.png")}
             alt=""
             className="absolute inset-0 h-full w-full max-w-none object-cover"
           />
           <img
-            src="/tech/bg-2.png"
+            src={asset("/tech/bg-2.png")}
             alt=""
             className="absolute inset-0 h-full w-full max-w-none object-cover"
           />
           <div className="absolute inset-0 overflow-hidden">
             <img
-              src="/tech/bg-3.png"
+              src={asset("/tech/bg-3.png")}
               alt=""
               className="absolute top-[-23.05%] left-[-213.33%] h-[139.53%] w-[502.53%] max-w-none"
             />
           </div>
           <div className="absolute inset-0 overflow-hidden">
             <img
-              src="/tech/bg-4.png"
+              src={asset("/tech/bg-4.png")}
               alt=""
               className="absolute top-[-9.35%] left-[-230.8%] h-[134.82%] w-[461.6%] max-w-none"
             />
@@ -133,7 +134,7 @@ export default function TechPage() {
       logo={
         <div className="flex size-[60.721px] shrink-0 items-center justify-center rounded-[427px] bg-[#459af7]">
           <img
-            src="/tech/logo.svg"
+            src={asset("/tech/logo.svg")}
             alt=""
             width={24.721}
             height={35.68}

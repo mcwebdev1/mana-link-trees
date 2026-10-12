@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { LinkTree, type TreeLinkItem, type TreeSocial } from "@/components/link-tree";
+import { asset } from "@/lib/asset";
 
 export const metadata: Metadata = {
   title: "Mana Common",
@@ -126,7 +127,7 @@ export default function CommonPage() {
         <div className="pointer-events-none absolute inset-0" aria-hidden="true">
           <div className="absolute inset-0 bg-[#dfdfdf]" />
           <img
-            src="/common/bg.png"
+            src={asset("/common/bg.png")}
             alt=""
             className="absolute inset-0 h-full w-full max-w-none object-cover"
           />
@@ -134,7 +135,7 @@ export default function CommonPage() {
       }
       logo={
         <img
-          src="/common/logo.svg"
+          src={asset("/common/logo.svg")}
           alt=""
           width={60.7209}
           height={60.7209}
