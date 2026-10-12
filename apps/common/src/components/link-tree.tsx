@@ -37,6 +37,7 @@ type LinkTreeProps = {
   footerClassName: string;
   socialClassName: string;
   canvasClassName: string;
+  desktopImage?: string;
 };
 
 const focusInk =
@@ -62,6 +63,7 @@ export function LinkTree({
   footerClassName,
   socialClassName,
   canvasClassName,
+  desktopImage,
 }: LinkTreeProps) {
   const ink = tone === "ink";
   const linkColor = ink ? "text-[#161616]" : "text-white";
@@ -70,8 +72,15 @@ export function LinkTree({
   const footerColor = ink ? "text-[#0d0d10]" : "text-white";
 
   return (
-    <main className={`flex min-h-dvh items-center justify-center ${canvasClassName}`}>
-      <div className="mana-hubs-stage">
+    <main className={`relative flex min-h-dvh items-center justify-center ${canvasClassName}`}>
+      {desktopImage ? (
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url('${desktopImage}')` }}
+        />
+      ) : null}
+      <div className="mana-hubs-stage relative">
         <article className="mana-hubs-frame overflow-hidden" aria-label={label}>
           {background}
           <div className="relative flex h-full flex-col items-start justify-center px-4 py-[31px]">
