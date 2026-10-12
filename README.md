@@ -24,6 +24,18 @@ npm run dev
 
 Each dev server listens on all interfaces.
 
+## Staging
+
+The shareable proof is published from [mcwebdev1/mana-link-trees](https://github.com/mcwebdev1/mana-link-trees) with GitHub Pages:
+
+- https://mcwebdev1.github.io/mana-link-trees/
+- https://mcwebdev1.github.io/mana-link-trees/hubs/
+- https://mcwebdev1.github.io/mana-link-trees/common/
+- https://mcwebdev1.github.io/mana-link-trees/fashion/
+- https://mcwebdev1.github.io/mana-link-trees/tech/
+
+Photos are stored in that repository as `.b64` text and restored before the Pages build.
+
 | App | Directory | Local URL |
 | --- | --- | --- |
 | Mana Hubs | `apps/hubs` | http://127.0.0.1:4177 |
