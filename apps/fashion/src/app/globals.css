@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-sans: var(--font-inter);
+}
+
+html,
+body {
+  background: #5f1711;
+  color: #ffffff;
+}
+
+.mana-hubs-stage {
+  position: relative;
+  width: min(430px, 100vw, calc(100dvh * 430 / 932));
+  height: min(932px, 100dvh, calc(100vw * 932 / 430));
+}
+
+.mana-hubs-frame {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 430px;
+  height: 932px;
+  transform-origin: top left;
+  transform: scale(min(1, 100vw / 430px, 100dvh / 932px));
+}
+
+body {
+  font-family: var(--font-inter), "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.font-bodoni {
+  font-family: var(--font-bodoni), "Bodoni 72", Didot, "Times New Roman", serif;
+}

@@ -36,6 +36,7 @@ type LinkTreeProps = {
   headerClassName: string;
   footerClassName: string;
   socialClassName: string;
+  canvasClassName: string;
 };
 
 const focusInk =
@@ -60,6 +61,7 @@ export function LinkTree({
   headerClassName,
   footerClassName,
   socialClassName,
+  canvasClassName,
 }: LinkTreeProps) {
   const ink = tone === "ink";
   const linkColor = ink ? "text-[#161616]" : "text-white";
@@ -68,7 +70,7 @@ export function LinkTree({
   const footerColor = ink ? "text-[#0d0d10]" : "text-white";
 
   return (
-    <main className="flex min-h-dvh items-center justify-center bg-[#dfdfdf]">
+    <main className={`flex min-h-dvh items-center justify-center ${canvasClassName}`}>
       <div className="mana-hubs-stage">
         <article className="mana-hubs-frame overflow-hidden" aria-label={label}>
           {background}

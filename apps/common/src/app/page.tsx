@@ -114,6 +114,7 @@ export default function CommonPage() {
   return (
     <LinkTree
       label="Mana Common"
+      canvasClassName="bg-[#dfdfdf]"
       tone="ink"
       linksLabel="Mana Common links"
       panelClassName="gap-[19px] bg-[rgba(255,255,255,0.44)]"

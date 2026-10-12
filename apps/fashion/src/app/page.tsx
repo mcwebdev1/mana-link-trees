@@ -78,6 +78,7 @@ export default function FashionPage() {
   return (
     <LinkTree
       label="Mana Fashion Services"
+      canvasClassName="bg-[#5f1711]"
       tone="paper"
       linksLabel="Mana Fashion links"
       panelClassName="gap-[131px]"

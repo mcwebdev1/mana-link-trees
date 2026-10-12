@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Bodoni_Moda, Inter } from "next/font/google";
-import { BrandNav } from "@/components/brand-nav";
 import "./globals.css";
 
 const inter = Inter({
@@ -16,18 +15,14 @@ const bodoni = Bodoni_Moda({
 });
 
 export const metadata: Metadata = {
-  title: "Mana Hubs",
-  description:
-    "Miami's only community-led coworking ecosystem. Book a tour, visit Mana Hubs curated by Mana Tech, or the Biscayne Showroom by Mana Fashion.",
+  title: "Mana Fashion Services",
+  description: "The heart of South Florida's fashion community.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`${inter.variable} ${bodoni.variable} h-full antialiased`}>
-      <body className="min-h-full">
-        <BrandNav />
-        {children}
-      </body>
+      <body className="min-h-full">{children}</body>
     </html>
   );
 }

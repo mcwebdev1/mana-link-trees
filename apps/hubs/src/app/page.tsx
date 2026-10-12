@@ -40,10 +40,17 @@ const socials = [
   },
 ] as const;
 
+const desktopBackground = "/tech-spaces-loft-10-2.jpg";
+
 export default function Home() {
   return (
-    <main className="flex min-h-dvh items-center justify-center bg-[#dfdfdf]">
-      <div className="mana-hubs-stage">
+    <main className="relative flex min-h-dvh items-center justify-center bg-[#dfdfdf]">
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-0 bg-[#dfdfdf] bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url('${desktopBackground}')` }}
+      />
+      <div className="mana-hubs-stage relative">
         <article className="mana-hubs-frame overflow-hidden">
           <div className="pointer-events-none absolute inset-0" aria-hidden="true">
             <div className="absolute inset-0 bg-[#dfdfdf]" />

@@ -93,6 +93,7 @@ export default function TechPage() {
   return (
     <LinkTree
       label="Mana Tech"
+      canvasClassName="bg-[#dfdfdf]"
       tone="ink"
       linksLabel="Mana Tech links"
       panelClassName="gap-[69px] bg-[rgba(197,212,255,0.58)]"
