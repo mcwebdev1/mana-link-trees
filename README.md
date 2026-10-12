@@ -49,4 +49,4 @@ The link column stays centered. The rest of the viewport is a full-bleed backgro
 
 Mana Hubs uses the photo at `apps/hubs/public/tech-spaces-loft-10-2.jpg`. Put that file in place before starting the Hubs app. Until it is there, the centered column still renders on the flat page color `#dfdfdf`.
 
-Mana Common uses `apps/common/public/desktop-background.jpg`. Mana Tech uses `apps/tech/public/desktop-background.jpg`. Mana Fashion uses `#5f1711` across the viewport.
+Mana Common uses `apps/common/public/desktop-background.jpg`. Mana Tech uses `apps/tech/public/desktop-background.png`. Mana Fashion uses `#5f1711` across the viewport.
