@@ -23,7 +23,7 @@ jobs:
         with:
           node-version: 22
           cache: npm
-      - run: npm ci
+      - run: npm install
       - run: node scripts/restore-binaries.mjs
       - name: Export the four link trees
         run: |
