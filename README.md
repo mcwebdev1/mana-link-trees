@@ -34,7 +34,7 @@ The shareable proof is published from [mcwebdev1/mana-link-trees](https://github
 - https://mcwebdev1.github.io/mana-link-trees/fashion/
 - https://mcwebdev1.github.io/mana-link-trees/tech/
 
-Photos are stored in that repository as `.b64` text and restored before the Pages build.
+Photos are stored in that repository as `.b64` text and restored before the Pages build. Those copies are compressed so the proof can be published through GitHub. This checkout keeps the original image files.
 
 | App | Directory | Local URL |
 | --- | --- | --- |
