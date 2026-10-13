@@ -44,24 +44,9 @@ const links: TreeLinkItem[] = [
 
 const socials: TreeSocial[] = [
   {
-    label: "YouTube",
-    href: "https://youtube.com/@manacommon",
-    icon: icon("/fashion/social-youtube.svg", 18, 18),
-  },
-  {
     label: "TikTok",
     href: "https://www.tiktok.com/@manafashionservices",
     icon: icon("/fashion/social-tiktok.svg", 17.75, 17.75),
-  },
-  {
-    label: "X",
-    href: "https://x.com/manacommon",
-    icon: icon("/fashion/social-x.svg", 18, 18),
-  },
-  {
-    label: "Facebook",
-    href: "https://www.facebook.com/manacommon",
-    icon: icon("/fashion/social-facebook.svg", 18, 17.75),
   },
   {
     label: "Instagram",
@@ -85,7 +70,7 @@ export default function FashionPage() {
       panelClassName="gap-[131px]"
       headerClassName=""
       footerClassName=""
-      socialClassName="px-4"
+      socialClassName="justify-center gap-10"
       background={
         <div className="pointer-events-none absolute inset-0 bg-[#5f1711]" aria-hidden="true" />
       }
@@ -125,7 +110,7 @@ export default function FashionPage() {
       taglineClassName="w-[150.634px] text-white"
       links={links}
       socials={socials}
-      footer="Connections That Make a Difference"
+      footer="© 2026 Mana Common. All Rights Reserved."
     />
   );
 }
