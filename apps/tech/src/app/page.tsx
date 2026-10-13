@@ -64,9 +64,34 @@ const links: TreeLinkItem[] = [
 
 const socials: TreeSocial[] = [
   {
+    label: "YouTube",
+    href: "https://youtube.com/@manacommon",
+    icon: icon("/tech/social-youtube.svg", 18, 18),
+  },
+  {
+    label: "TikTok",
+    href: "https://tiktok.com/@manacommon",
+    icon: icon("/tech/social-tiktok.svg", 17.75, 17.75),
+  },
+  {
+    label: "X",
+    href: "https://x.com/manacommon",
+    icon: icon("/tech/social-x.svg", 18, 18),
+  },
+  {
+    label: "Facebook",
+    href: "https://facebook.com/manacommon",
+    icon: icon("/tech/social-facebook.svg", 18, 17.75),
+  },
+  {
     label: "Instagram",
     href: "https://www.instagram.com/manatechmiami/",
     icon: icon("/tech/social-instagram.svg", 17.75, 17.75),
+  },
+  {
+    label: "LinkedIn",
+    href: "https://linkedin.com/company/manatech-basemiami/?skipRedirect=true",
+    icon: icon("/tech/social-linkedin.svg", 17.5, 17.5),
   },
 ];
 
@@ -81,7 +106,7 @@ export default function TechPage() {
       panelClassName="gap-[69px] bg-[rgba(197,212,255,0.58)]"
       headerClassName="border-b border-solid border-black"
       footerClassName="px-[19px]"
-      socialClassName="justify-center"
+      socialClassName="px-1"
       background={
         <div className="mana-phone-bg pointer-events-none absolute inset-0" aria-hidden="true">
           <div className="absolute inset-0 bg-[#dfdfdf]" />

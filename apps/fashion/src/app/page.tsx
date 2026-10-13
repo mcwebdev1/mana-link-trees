@@ -44,9 +44,24 @@ const links: TreeLinkItem[] = [
 
 const socials: TreeSocial[] = [
   {
+    label: "YouTube",
+    href: "https://youtube.com/@manacommon",
+    icon: icon("/fashion/social-youtube.svg", 18, 18),
+  },
+  {
     label: "TikTok",
     href: "https://www.tiktok.com/@manafashionservices",
     icon: icon("/fashion/social-tiktok.svg", 17.75, 17.75),
+  },
+  {
+    label: "X",
+    href: "https://x.com/manacommon",
+    icon: icon("/fashion/social-x.svg", 18, 18),
+  },
+  {
+    label: "Facebook",
+    href: "https://www.facebook.com/manacommon",
+    icon: icon("/fashion/social-facebook.svg", 18, 17.75),
   },
   {
     label: "Instagram",
@@ -70,7 +85,7 @@ export default function FashionPage() {
       panelClassName="gap-[131px]"
       headerClassName=""
       footerClassName=""
-      socialClassName="justify-center gap-10"
+      socialClassName="px-4"
       background={
         <div className="pointer-events-none absolute inset-0 bg-[#5f1711]" aria-hidden="true" />
       }

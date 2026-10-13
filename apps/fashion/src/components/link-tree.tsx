@@ -129,7 +129,7 @@ export function LinkTree({
               <footer
                 className={`flex w-full shrink-0 flex-col items-center gap-4 pt-[15px] ${footerClassName}`}
               >
-                <div className={`flex h-9 w-full items-start ${socialClassName}`}>
+                <div className={`flex h-9 w-full items-start justify-between ${socialClassName}`}>
                   {socials.map((social) => (
                     <a
                       key={social.label}

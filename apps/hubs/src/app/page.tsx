@@ -20,6 +20,27 @@ const links = [
 
 const socials = [
   {
+    label: "YouTube",
+    href: "https://youtube.com/@manacommon",
+    icon: "/icon-youtube.svg",
+    width: 18,
+    height: 18,
+  },
+  {
+    label: "TikTok",
+    href: "https://tiktok.com/@manacommon",
+    icon: "/icon-tiktok.svg",
+    width: 17.75,
+    height: 17.75,
+  },
+  {
+    label: "X",
+    href: "https://x.com/manacommon",
+    icon: "/icon-x.svg",
+    width: 18,
+    height: 18,
+  },
+  {
     label: "Facebook",
     href: "https://www.facebook.com/manahubs/",
     icon: "/icon-facebook.svg",
@@ -119,7 +140,7 @@ export default function Home() {
               </nav>
 
               <footer className="flex w-full shrink-0 flex-col items-center gap-4 px-[19px] pt-[15px]">
-                <div className="flex h-9 w-full items-start justify-between px-[57px]">
+                <div className="flex h-9 w-full items-start justify-between px-1">
                   {socials.map((social) => (
                     <a
                       key={social.label}
